@@ -1,0 +1,11 @@
+column,dtype,missing,missing_pct,distinct
+rownames,int64,0,0.0,96
+state,object,0,0.0,48
+year,int64,0,0.0,2
+cpi,float64,0,0.0,2
+population,int64,0,0.0,96
+packs,float64,0,0.0,96
+income,int64,0,0.0,96
+tax,float64,0,0.0,58
+price,float64,0,0.0,96
+taxs,float64,0,0.0,93

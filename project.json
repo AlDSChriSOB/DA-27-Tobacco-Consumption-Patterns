@@ -1,0 +1,14 @@
+{
+  "id": 27,
+  "title": "Tobacco Consumption Patterns",
+  "question": "How are cigarette prices and recorded per-capita packs associated?",
+  "x": "price",
+  "y": "packs",
+  "mode": "relation",
+  "caveat": "Repeated states and two historical periods; nominal prices and policy confound associations.",
+  "action": "Deflate prices and use a panel design before estimating elasticities.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/AER/CigarettesSW.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/AER/CigarettesSW.html",
+  "metric_label": "mean packs",
+  "method": "Complete-pair scatter plot of price and packs, with Pearson and Spearman correlations. No regression adjustment or causal claim."
+}
